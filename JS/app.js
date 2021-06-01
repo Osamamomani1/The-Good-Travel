@@ -8,7 +8,7 @@ function addPlace(name,place,transport){
     this.name=name;
     this.place=place;
     this.transport=transport;  
-    this.img0=`img/${place}.png`
+    this.img0=`../img/${place}.png`
     this.render();
     placeArr.push(this);
 }
